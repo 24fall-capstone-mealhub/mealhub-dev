@@ -1,0 +1,536 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans KR', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.App {
+  width: min(100vw, 46.1vh);
+  height: min(100vh, 216vw);
+  max-width: 430px;
+  max-height: 932px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  /* border: 3px solid black; */
+}
+
+.orange-nav {
+  background: orange;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.orange-nav h3 {
+  margin: 20px;
+}
+
+.nav-buttons {
+  position: absolute;
+  right: 5px;
+}
+
+.like, .my {
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+.my:hover::after {
+  content: '게스트'; /* 버튼에 마우스를 올렸을 때 나타낼 텍스트 */
+  position: absolute;
+  top: 100%; /* 버튼 아래쪽에 위치 */
+  left: 50%;
+  transform: translateX(-50%); /* 수평 중앙 정렬 */
+  margin-top: 5px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #333;
+  white-space: nowrap;
+  width: auto;
+  padding: 5px 5px;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 */  
+}
+
+.party {
+  margin: 10px;
+  padding: 8px;
+  text-align: left;
+  font-size: 15px;
+  background: rgb(255, 232, 190);
+  border-radius: 30px;
+  color: saddlebrown;
+}
+
+.party span {
+  margin: 4px;
+  padding: 3px;
+  border-radius: 10px;
+  background: white;
+}
+
+.party p {
+  display: inline;
+}
+
+h2 {
+  color: saddlebrown;
+}
+
+.create-rec, .show-map, .reload {
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 44%;
+  background-color: rgb(255, 155, 146);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 3px;
+}
+
+.res-img {
+  width: 70%;
+  aspect-ratio: 1/1;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.map-wrap {
+  width: 90%;
+  height: 30%;
+  /* border: 2px solid black; */
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid black; */
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map img {
+  width: 100%;
+  height: 100%;}
+
+/* ---------- TRENDS ---------- */
+.trends {
+  max-width: 100%;
+  height: 20%;
+  display: flex;
+  padding: 10px;
+  background: rgb(255, 232, 190);
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+}
+
+.trends.fixed {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.trend {
+  height: 90%;
+  aspect-ratio: 1/1;
+  border-radius: 30px;
+  margin: 7px;
+  padding: 3px;
+  text-align: center;
+  background: white;
+}
+
+.trend img {
+  height: 55%;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  margin: 4px;
+}
+
+.trend h5 {
+  margin: 0;
+}
+
+.trend p {
+  font-size: 12px;
+}
+
+/* ---------- LOGIN ---------- */
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Login h2 {
+  margin-top: 50px;
+}
+
+.login-form {
+  height: 40%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  background-color: rgb(255, 232, 190);
+  border-radius: 30px;
+  padding: 10px;
+  position: absolute;
+  top: 25%;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.form-group:not(.category){
+  height: 50px;
+}
+
+label {
+  width: 30%;
+  color: saddlebrown;
+  font-size: 13.6px;
+  margin: 10px;
+  display: inline-block;
+}
+
+input {
+  width: 80%;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  padding: 5px;
+  margin: 5px 0px;
+  display: flex;
+}
+
+.br {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.input-group {
+  width: 80%;
+  height: 40px;
+  padding: 0px;
+  margin: 5px 0px;
+  display: flex;
+}
+
+.sub {
+  width: 100%;
+  margin: 0px;
+}
+
+.input-group .email {
+  margin: 0px 0px;
+}
+
+.input-group .ap{
+  margin: 0% 3%;
+}
+
+.input-group .check {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+.input-group label {
+  display: flex;
+  width: 34%;
+  font-size: 12px;
+  margin: 0px 0px;
+  margin-right: 5px;
+  align-items: center;
+}
+
+.submit {
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 44%;
+  background-color: rgb(255, 155, 146);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.Login a {
+  margin: 5px;
+  font-size: 12px;
+  color: saddlebrown;
+}
+
+.Login a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* ---------- SIGNUP ---------- */
+.login-form.signup2 {
+  height: 50%;
+}
+
+.age1, .id {
+  margin-right: 8px;
+}
+
+.age1, .age2, .id {
+  margin-top: 0px;
+}
+
+.checkid {
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 20%;
+  background-color: rgba(224, 200, 180, 0.47);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: white; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.map_wrap, .map_wrap * {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.map_wrap a, .map_wrap a:hover, .map_wrap a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.map_wrap {
+  position: relative;
+  width: 100%;
+  height: 30%;
+}
+
+#menu_wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 35%;
+  margin: 5px 0px 5px 5px;
+  padding: 5px;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.bg_white {
+  background: #fff;
+}
+
+#menu_wrap hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #5F5F5F;
+  margin: 3px 0;
+}
+
+#menu_wrap .option {
+  text-align: center;
+}
+
+#menu_wrap .option p {
+  margin: 10px 0;
+}
+
+#menu_wrap .option button {
+  margin-left: 5px;
+}
+
+#placesList li {
+  list-style: none;
+}
+
+#placesList .item {
+  position: relative;
+  border-bottom: 1px solid #888;
+  overflow: hidden;
+  cursor: pointer;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+#placesList .item span {
+  display: block;
+  margin-top: 2px;
+}
+
+#placesList .item h5,
+#placesList .item .info {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 11px;
+}
+
+#placesList .item .info {
+  padding: 0px 0 0px 25px;
+  
+}
+
+#placesList .info .gray {
+  color: #8a8a8a;
+}
+
+#placesList .info .tel {
+  color: #009900;
+  font-size: 10px;
+}
+
+#placesList .item .markerbg {
+  float: left;
+  position: absolute;
+  width: 36px;
+  height: 27px;
+  margin: 0px;
+  background: url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_number_blue.png) no-repeat;
+  background-size: 72% auto;
+}
+
+#placesList .item .marker_1 {
+  background-position: 0 -7px;
+}
+
+#placesList .item .marker_2 {
+  background-position: 0 -40px;
+}
+
+#placesList .item .marker_3 {
+  background-position: 0 -73px;
+}
+
+#placesList .item .marker_4 {
+  background-position: 0 -106px;
+}
+
+#placesList .item .marker_5 {
+  background-position: 0 -139px;
+}
+
+#placesList .item .marker_6 {
+  background-position: 0 -172px;
+}
+
+#placesList .item .marker_7 {
+  background-position: 0 -205px;
+}
+
+#placesList .item .marker_8 {
+  background-position: 0 -238px;
+}
+
+#placesList .item .marker_9 {
+  background-position: 0 -271px;
+}
+
+#placesList .item .marker_10 {
+  background-position: 0 -304px;
+}
+
+#placesList .item .marker_11 {
+  background-position: 0 -337px;
+}
+
+#placesList .item .marker_12 {
+  background-position: 0 -370px;
+}
+
+#placesList .item .marker_13 {
+  background-position: 0 -403px;
+}
+
+#placesList .item .marker_14 {
+  background-position: 0 -436px;
+}
+
+#placesList .item .marker_15 {
+  background-position: 0 -469px;
+}
+
+#pagination {
+  margin: 10px auto;
+  text-align: center;
+}
+
+#pagination a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#pagination .on {
+  font-weight: bold;
+  cursor: default;
+  color: #777;
+}
+
+#search {
+  display: flex;
+}
+
+#keyword {
+  width: 80%;
+  height: 20px;
+  padding: 2px;
+}
+
+#search-btn {
+  width: 15%;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+}
