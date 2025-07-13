@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+</head>
+<body>
+<h2>login to Your Account</h2>
+
+<!-- 로그인 폼 -->
+<form action="/user/login" method="POST" id="loginForm">
+  <label for="loginId">Id:</label><br>
+  <input type="loginId" id="loginId" name="loginId" required><br><br>
+
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" required><br><br>
+
+  <button type="submit">Sign In</button>
+</form>
+
+<!-- 로그인 실패 메시지 -->
+<div id="errorMessage" style="color: red; display: none;">
+  <p>Invalid loginId or password. Please try again.</p>
+</div>
+
+<script>
+  // 로그인 실패 처리
+  document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const loginId = document.getElementById('loginId').value;
+    const password = document.getElementById('password').value;
+
+    // AJAX 요청을 보내는 부분
+    fetch('/user/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        loginId: loginId,
+        password: password
+      })
+    })
+            .then(response => {
+              if (!response.ok) {
+                document.getElementById('errorMessage').style.display = 'block';
+              } else {
+                window.location.href = '/index';  // 로그인 성공 시 리디렉션
+              }
+            })
+            .catch(error => {
+              console.error('Error during login:', error);
+              document.getElementById('errorMessage').style.display = 'block';
+            });
+  });
+</script>
+</body>
+</html>

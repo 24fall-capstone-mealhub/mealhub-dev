@@ -1,41 +1,23 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
-from typing import List
-import pandas as pd
+from fastapi.middleware.cors import CORSMiddleware
+from api.recommend import router as recommend_router
+from api.feedback import router as feedback_router
 
-from weather_api import get_weather_category
-
-from recommender import Hybrid
-from filter import ContextFilter
-
-
-app = FastAPI()
-
-class RecommendRequest(BaseModel):
-    user_id: str
-    pref_categories: List[str]
-    pref_foods: List[str]
-    timestamp: int
-    lat: float
-    lon: float
-
-class RecommendResponse(BaseModel):
-    recommendations: List[str]
-
-@app.post("/recommend", response_model=RecommendResponse)
-def get_recommendation(req: RecommendRequest):
-    weather = get_weather_category(req.lat, req.lon)
-
-    context_filter = ContextFilter(weather, req.timestamp)
-
-    hybrid = Hybrid(user_id=req.user_id, pref_categories=req.pref_categories, pref_foods=req.pref_foods)
-    raw_recommendations = hybrid.recommend()
-
-    sorted_recommendations = sorted(
-        raw_recommendations,
-        key=lambda menu: context_filter.score(menu),
-        reverse=True
+app = FastAPI(
+    root_path="/api",
+    docs_url="/docs",
+    redoc_url="/redoc",
+    openapi_url="/openapi.json"
     )
 
-    return RecommendResponse(recommendations=sorted_recommendations)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # React 개발 서버 주소
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
+# 추천 API 엔드포인트 등록
+app.include_router(recommend_router, prefix="/recommend", tags=["recommend"])
+app.include_router(feedback_router, prefix="/feedback", tags=["feedback"])

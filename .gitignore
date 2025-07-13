@@ -1,7 +1,94 @@
-# recommend_api 내부의 모든 파일 무시
+# ./recommend_api/ -------------#
 recommend_api/*
 
-# 예외: .py 파일, requirements.txt, dockerfile은 추적
-!recommend_api/*.py
+!recommend_api/api/
+!recommend_api/core/
+!recommend_api/models/
+!recommend_api/recommendation/
+!recommend_api/schemas/
+!recommend_api/utils/
+!recommend_api/virtual/
+!recommend_api/**/*.py
 !recommend_api/requirements.txt
+!recommend_api/entrypoint.sh
 !recommend_api/dockerfile
+
+recommend_api/__pycache__/
+recommend_api/**/__pycache__/
+recommend_api/*.py[cod]
+
+# ./nginx/ ----------------------#
+nginx/*
+!nginx/vhost.d/example.com
+
+# ./db/ -------------------------#
+db/*
+!db/init.sql
+
+# ./frontend/ -------------------#
+frontend/.git/
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.cache/
+
+frontend/.vscode/
+frontend/.idea/
+frontend/.DS_Store
+frontend/Thumbs.db
+
+frontend/.dockerignore
+frontend/.gitignore
+frontend/README.md
+
+# ./backend/ --------------------#
+backend/.git/
+backend/HELP.md
+backend/.gradle
+backend/build/
+!backend/gradle/wrapper/gradle-wrapper.jar
+!backend/**/src/main/**/build/
+!backend/**/src/test/**/build/
+
+### STS ###
+backend/.apt_generated
+backend/.classpath
+backend/.factorypath
+backend/.project
+backend/.settings
+backend/.springBeans
+backend/.sts4-cache
+backend/bin/
+!backend/**/src/main/**/bin/
+!backend/**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+backend/.idea
+backend/*.iws
+backend/*.iml
+backend/*.ipr
+backend/out/
+!backend/**/src/main/**/out/
+!backend/**/src/test/**/out/
+
+### NetBeans ###
+backend/nbproject/private/
+backend/nbbuild/
+backend/dist/
+backend/nbdist/
+backend/.nb-gradle/
+
+### VS Code ###
+backend/.vscode/
+
+backend/.gitignore
+backend/.dockerignore
+
+#--------------------------------#
+.env
+.gitignore

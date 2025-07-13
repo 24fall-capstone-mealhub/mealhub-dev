@@ -1,0 +1,882 @@
+{
+    "가자미구이": {
+        "menu_id": 4,
+        "url": "https://cdn.pixabay.com/photo/2018/09/19/12/45/karimeen-3688474_1280.jpg"
+    },
+    "간짜장": {
+        "menu_id": 11,
+        "url": "https://i.postimg.cc/28g8gXyH/IMG-4198.jpg"
+    },
+    "갈비찜": {
+        "menu_id": 15,
+        "url": "https://cdn.pixabay.com/photo/2020/06/04/02/08/thai-boat-noodle-5256917_1280.jpg"
+    },
+    "갈비탕": {
+        "menu_id": 16,
+        "url": "https://i.postimg.cc/x8cn4K2D/IMG-4192.jpg"
+    },
+    "갈치구이": {
+        "menu_id": 17,
+        "url": "https://i.postimg.cc/7Zyr3vfy/IMG-4182.jpg"
+    },
+    "갈치조림": {
+        "menu_id": 19,
+        "url": "https://i.postimg.cc/bNnjSYYT/IMG-4183.jpg"
+    },
+    "감바스": {
+        "menu_id": 21,
+        "url": "https://cdn.pixabay.com/photo/2014/09/19/19/37/scampi-452965_1280.jpg"
+    },
+    "감자전": {
+        "menu_id": 26,
+        "url": "https://cdn.pixabay.com/photo/2018/12/02/20/14/potato-fritter-3852022_1280.jpg"
+    },
+    "감자탕": {
+        "menu_id": 28,
+        "url": "https://cdn.pixabay.com/photo/2016/07/22/05/07/delicious-1534207_1280.jpg"
+    },
+    "게장": {
+        "menu_id": 33,
+        "url": "https://cdn.pixabay.com/photo/2018/05/02/03/03/food-3367642_1280.jpg"
+    },
+    "고기만두": {
+        "menu_id": 37,
+        "url": "https://cdn.pixabay.com/photo/2023/01/15/05/50/dumpling-7719497_1280.jpg"
+    },
+    "고등어구이": {
+        "menu_id": 38,
+        "url": "https://cdn.pixabay.com/photo/2018/04/28/16/09/mackerel-3357565_1280.jpg"
+    },
+    "고등어조림": {
+        "menu_id": 39,
+        "url": "https://i.postimg.cc/cCQh3PpH/IMG-4141.png"
+    },
+    "고추장찌개": {
+        "menu_id": 44,
+        "url": "https://cdn.pixabay.com/photo/2022/12/09/01/39/korean-7644354_1280.jpg"
+    },
+    "곤드레밥": {
+        "menu_id": 46,
+        "url": "https://i.postimg.cc/cCqTrd52/IMG-4142.png"
+    },
+    "곰탕": {
+        "menu_id": 49,
+        "url": "https://i.postimg.cc/tTn2qsDF/IMG-4143.png"
+    },
+    "곱창구이": {
+        "menu_id": 50,
+        "url": "https://cdn.pixabay.com/photo/2014/01/24/05/10/republic-of-korea-250884_1280.jpg"
+    },
+    "곱창볶음": {
+        "menu_id": 51,
+        "url": "https://cdn.pixabay.com/photo/2020/02/23/07/36/gopchang-4872493_1280.jpg"
+    },
+    "곱창전골": {
+        "menu_id": 52,
+        "url": "https://i.postimg.cc/cJHFz9n9/IMG-4144.png"
+    },
+    "군만두": {
+        "menu_id": 57,
+        "url": "https://cdn.pixabay.com/photo/2015/05/10/05/07/gyoza-760510_1280.jpg"
+    },
+    "굴 국밥": {
+        "menu_id": 58,
+        "url": "https://i.postimg.cc/nc4S9Qxk/IMG-4145.png"
+    },
+    "굴무침": {
+        "menu_id": 62,
+        "url": "https://i.postimg.cc/8zTKRPPV/IMG-4146.png"
+    },
+    "굴밥": {
+        "menu_id": 63,
+        "url": "https://i.postimg.cc/YC8XbKhL/IMG-4147.png"
+    },
+    "규카츠": {
+        "menu_id": 287,
+        "url": "https://i.postimg.cc/J7vLhH80/IMG-4185.jpg"
+    },
+    "그라탕": {
+        "menu_id": 25,
+        "url": "https://cdn.pixabay.com/photo/2017/10/13/19/00/potato-casserole-2848605_1280.jpg"
+    },
+    "기스면": {
+        "menu_id": 66,
+        "url": "https://cdn.pixabay.com/photo/2021/12/29/23/36/soup-6902952_1280.jpg"
+    },
+    "김밥": {
+        "menu_id": 70,
+        "url": "https://cdn.pixabay.com/photo/2015/06/09/15/12/kim-rice-803637_1280.jpg"
+    },
+    "김치만두": {
+        "menu_id": 200,
+        "url": "https://cdn.pixabay.com/photo/2017/02/25/15/08/dimsum-2097953_1280.jpg"
+    },
+    "깐풍기": {
+        "menu_id": 72,
+        "url": "https://cdn.pixabay.com/photo/2020/03/31/01/56/general-tso-chicken-4985986_1280.jpg"
+    },
+    "깐풍새우": {
+        "menu_id": 73,
+        "url": "https://cdn.pixabay.com/photo/2020/02/21/06/09/prawns-in-tomato-sauce-4866597_1280.jpg"
+    },
+    "꼬리곰탕": {
+        "menu_id": 75,
+        "url": "https://i.postimg.cc/8kr0D0nx/IMG-4148.png"
+    },
+    "꼬치구이": {
+        "menu_id": 160,
+        "url": "https://cdn.pixabay.com/photo/2021/12/17/00/01/barbecue-6875420_1280.jpg"
+    },
+    "꽃게탕": {
+        "menu_id": 83,
+        "url": "https://i.postimg.cc/sxS6cMh3/IMG-4149.png"
+    },
+    "나베": {
+        "menu_id": 86,
+        "url": "https://cdn.pixabay.com/photo/2022/10/16/15/19/milfeuille-7525327_1280.jpg"
+    },
+    "낙지볶음": {
+        "menu_id": 91,
+        "url": "https://cdn.pixabay.com/photo/2019/01/02/04/24/octopus-3908010_1280.jpg"
+    },
+    "낙지전골": {
+        "menu_id": 92,
+        "url": "https://cdn.pixabay.com/photo/2020/02/08/03/56/octopus-desktop-4829030_1280.jpg"
+    },
+    "낙지탕": {
+        "menu_id": 94,
+        "url": "https://cdn.pixabay.com/photo/2018/10/08/13/12/octopus-3732724_1280.jpg"
+    },
+    "난자완스": {
+        "menu_id": 96,
+        "url": "https://cdn.pixabay.com/photo/2014/03/20/10/41/meatballs-291283_1280.jpg"
+    },
+    "내장탕": {
+        "menu_id": 98,
+        "url": "https://i.postimg.cc/zB42KC3d/IMG-4150.png"
+    },
+    "녹두전": {
+        "menu_id": 103,
+        "url": "https://cdn.pixabay.com/photo/2021/12/30/00/06/scallion-pancake-6902999_1280.jpg"
+    },
+    "닭갈비": {
+        "menu_id": 127,
+        "url": "https://cdn.pixabay.com/photo/2017/03/09/09/59/cooking-2129078_1280.jpg"
+    },
+    "닭곰탕": {
+        "menu_id": 112,
+        "url": "https://i.postimg.cc/ZKtDqxGn/IMG-4151.png"
+    },
+    "닭발": {
+        "menu_id": 122,
+        "url": "https://cdn.pixabay.com/photo/2015/05/02/01/00/seasoned-chicken-feet-749362_1280.jpg"
+    },
+    "닭볶음탕": {
+        "menu_id": 128,
+        "url": "https://i.postimg.cc/bvN5hYKR/IMG-4152.png"
+    },
+    "대게찜": {
+        "menu_id": 82,
+        "url": "https://cdn.pixabay.com/photo/2017/06/07/07/03/snow-crab-2379549_1280.jpg"
+    },
+    "대구탕": {
+        "menu_id": 135,
+        "url": "https://i.postimg.cc/JzQFvHdn/IMG-4153.png"
+    },
+    "대창구이": {
+        "menu_id": 136,
+        "url": "https://cdn.pixabay.com/photo/2019/11/21/18/28/gopchang-4643143_1280.jpg"
+    },
+    "더덕구이": {
+        "menu_id": 138,
+        "url": "https://i.postimg.cc/XNHvkvb6/IMG-4199.jpg"
+    },
+    "도가니탕": {
+        "menu_id": 140,
+        "url": "https://i.postimg.cc/vmqNHFyw/IMG-4154.png"
+    },
+    "돈까스": {
+        "menu_id": 146,
+        "url": "https://cdn.pixabay.com/photo/2016/09/23/23/23/pork-1690696_1280.jpg"
+    },
+    "동파육": {
+        "menu_id": 155,
+        "url": "https://cdn.pixabay.com/photo/2024/02/12/13/17/braised-pork-belly-8568606_1280.jpg"
+    },
+    "돼지고기 구이": {
+        "menu_id": 159,
+        "url": "https://cdn.pixabay.com/photo/2017/06/30/04/50/thai-food-2457223_1280.jpg"
+    },
+    "돼지고기 덮밥": {
+        "menu_id": 161,
+        "url": "https://cdn.pixabay.com/photo/2021/02/09/03/54/thai-food-5997307_1280.jpg"
+    },
+    "돼지고기튀김": {
+        "menu_id": 168,
+        "url": "https://i.postimg.cc/cHv5v91g/IMG-4155.png"
+    },
+    "돼지국밥": {
+        "menu_id": 54,
+        "url": "https://cdn.pixabay.com/photo/2022/08/16/05/21/soondaeguk-7389373_1280.jpg"
+    },
+    "돼지껍데기": {
+        "menu_id": 169,
+        "url": "https://cdn.pixabay.com/photo/2020/03/04/10/01/pig-4901172_1280.jpg"
+    },
+    "돼지불고기": {
+        "menu_id": 172,
+        "url": "https://i.postimg.cc/bvmXfsLz/IMG-4178.jpg"
+    },
+    "된장찌개": {
+        "menu_id": 175,
+        "url": "https://cdn.pixabay.com/photo/2022/11/15/12/37/cheonggukjang-7593899_1280.jpg"
+    },
+    "두부전골": {
+        "menu_id": 182,
+        "url": "https://cdn.pixabay.com/photo/2017/08/11/05/54/tofu-2629785_1280.jpg"
+    },
+    "두부조림": {
+        "menu_id": 183,
+        "url": "https://cdn.pixabay.com/photo/2017/07/30/14/23/xian-2554485_1280.jpg"
+    },
+    "떡갈비": {
+        "menu_id": 186,
+        "url": "https://cdn.pixabay.com/photo/2015/05/03/13/51/korean-tteokgalbi-751205_1280.jpg"
+    },
+    "떡국": {
+        "menu_id": 187,
+        "url": "https://cdn.pixabay.com/photo/2023/01/12/19/18/tteokguk-7714734_1280.jpg"
+    },
+    "떡볶이": {
+        "menu_id": 189,
+        "url": "https://cdn.pixabay.com/photo/2018/11/04/09/08/toppokki-3793393_1280.jpg"
+    },
+    "또띠아": {
+        "menu_id": 190,
+        "url": "https://cdn.pixabay.com/photo/2023/08/08/08/46/tacos-8176774_1280.jpg"
+    },
+    "라멘": {
+        "menu_id": 191,
+        "url": "https://cdn.pixabay.com/photo/2021/09/27/02/36/ramen-6659278_1280.jpg"
+    },
+    "라면": {
+        "menu_id": 192,
+        "url": "https://cdn.pixabay.com/photo/2020/09/17/12/25/ramen-5579023_1280.jpg"
+    },
+    "라조기": {
+        "menu_id": 194,
+        "url": "https://i.postimg.cc/nhx53G2g/IMG-4156.png"
+    },
+    "리조또": {
+        "menu_id": 195,
+        "url": "https://cdn.pixabay.com/photo/2016/01/07/19/47/risotto-1126412_1280.jpg"
+    },
+    "마라탕": {
+        "menu_id": 196,
+        "url": "https://i.postimg.cc/9M06mCNy/IMG-4179.jpg"
+    },
+    "마파두부": {
+        "menu_id": 197,
+        "url": "https://cdn.pixabay.com/photo/2017/08/02/06/51/mapo-tofu-2570173_1280.jpg"
+    },
+    "막국수": {
+        "menu_id": 198,
+        "url": "https://cdn.pixabay.com/photo/2014/01/14/06/26/makguksu-244153_1280.jpg"
+    },
+    "막창구이": {
+        "menu_id": 199,
+        "url": "https://i.postimg.cc/85yT4Zxm/IMG-4194.jpg"
+    },
+    "만두국": {
+        "menu_id": 201,
+        "url": "https://cdn.pixabay.com/photo/2023/12/15/05/31/food-8450085_1280.jpg"
+    },
+    "만두전골": {
+        "menu_id": 202,
+        "url": "https://i.postimg.cc/8PM9d0RL/IMG-4157.png"
+    },
+    "매운탕": {
+        "menu_id": 207,
+        "url": "https://cdn.pixabay.com/photo/2017/07/19/03/14/lures-and-buy-new-desktop-2517767_1280.jpg"
+    },
+    "메밀국수": {
+        "menu_id": 210,
+        "url": "https://cdn.pixabay.com/photo/2021/03/06/16/40/noodles-6074119_1280.jpg"
+    },
+    "메밀소바": {
+        "menu_id": 212,
+        "url": "https://cdn.pixabay.com/photo/2021/07/16/06/32/noodles-6470061_1280.jpg"
+    },
+    "멘보샤": {
+        "menu_id": 213,
+        "url": "https://cdn.pixabay.com/photo/2019/12/01/15/08/bread-sticks-4665683_1280.jpg"
+    },
+    "목살 스테이크": {
+        "menu_id": 162,
+        "url": "https://cdn.pixabay.com/photo/2016/01/22/02/13/meat-1155132_1280.jpg"
+    },
+    "묵밥": {
+        "menu_id": 227,
+        "url": "https://cdn.pixabay.com/photo/2016/12/22/08/52/muksabal-1924739_1280.jpg"
+    },
+    "문어무침": {
+        "menu_id": 228,
+        "url": "https://i.postimg.cc/3ryPNRWS/IMG-4158.png"
+    },
+    "물냉면": {
+        "menu_id": 230,
+        "url": "https://cdn.pixabay.com/photo/2016/07/22/07/07/korean-food-1534324_1280.png"
+    },
+    "물만두": {
+        "menu_id": 231,
+        "url": "https://cdn.pixabay.com/photo/2023/12/15/05/31/food-8450082_1280.jpg"
+    },
+    "물회": {
+        "menu_id": 232,
+        "url": "https://cdn.pixabay.com/photo/2017/07/28/06/00/mulhoe-2547750_1280.jpg"
+    },
+    "미역국": {
+        "menu_id": 233,
+        "url": "https://i.postimg.cc/sDG3P9m5/IMG-4190.jpg"
+    },
+    "밀면": {
+        "menu_id": 238,
+        "url": "https://cdn.pixabay.com/photo/2018/09/17/05/14/water-noodle-3683050_1280.jpg"
+    },
+    "배추전": {
+        "menu_id": 244,
+        "url": "https://i.postimg.cc/2jPgZDZz/IMG-4159.png"
+    },
+    "백숙": {
+        "menu_id": 125,
+        "url": "https://cdn.pixabay.com/photo/2017/06/12/14/55/white-mature-2395807_1280.jpg"
+    },
+    "버거": {
+        "menu_id": 246,
+        "url": "https://cdn.pixabay.com/photo/2022/08/29/17/45/burger-7419428_1280.jpg"
+    },
+    "버섯덮밥": {
+        "menu_id": 247,
+        "url": "https://i.postimg.cc/G9wPhz9C/IMG-4160.png"
+    },
+    "버섯전골": {
+        "menu_id": 254,
+        "url": "https://i.postimg.cc/B6v0jxtL/IMG-4189.jpg"
+    },
+    "병어조림": {
+        "menu_id": 258,
+        "url": "https://i.postimg.cc/WzJ6vxN8/IMG-4161.png"
+    },
+    "볶음밥": {
+        "menu_id": 266,
+        "url": "https://cdn.pixabay.com/photo/2012/12/18/18/02/nasi-goreng-70674_1280.jpg"
+    },
+    "볶음우동": {
+        "menu_id": 414,
+        "url": "https://i.postimg.cc/G2fJ6bC9/IMG-4162.png"
+    },
+    "부대찌개": {
+        "menu_id": 268,
+        "url": "https://cdn.pixabay.com/photo/2021/10/16/12/50/hotpot-6714953_1280.jpg"
+    },
+    "부추전": {
+        "menu_id": 269,
+        "url": "https://i.postimg.cc/4dyQ8mjr/IMG-4163.png"
+    },
+    "북어국": {
+        "menu_id": 271,
+        "url": "https://i.postimg.cc/pd2ZF0CV/IMG-4164.png"
+    },
+    "분짜": {
+        "menu_id": 276,
+        "url": "https://i.postimg.cc/wj523Khb/IMG-4165.png"
+    },
+    "불고기전골": {
+        "menu_id": 277,
+        "url": "https://cdn.pixabay.com/photo/2017/04/20/03/22/japanese-2244397_1280.jpg"
+    },
+    "비빔국수": {
+        "menu_id": 282,
+        "url": "https://cdn.pixabay.com/photo/2015/04/06/16/21/korean-food-709606_1280.jpg"
+    },
+    "비빔냉면": {
+        "menu_id": 283,
+        "url": "https://i.postimg.cc/d0sMf82H/IMG-4177.jpg"
+    },
+    "비빔밥": {
+        "menu_id": 286,
+        "url": "https://cdn.pixabay.com/photo/2018/03/26/15/46/korean-food-3263032_1280.jpg"
+    },
+    "뼈다귀해장국": {
+        "menu_id": 288,
+        "url": "https://cdn.pixabay.com/photo/2023/06/07/04/29/republic-of-korea-8046196_1280.jpg"
+    },
+    "사골국": {
+        "menu_id": 289,
+        "url": "https://i.postimg.cc/SKDG7W16/IMG-4166.png"
+    },
+    "삼겹살": {
+        "menu_id": 291,
+        "url": "https://cdn.pixabay.com/photo/2022/11/12/11/20/meat-7586803_1280.jpg"
+    },
+    "삼계탕": {
+        "menu_id": 293,
+        "url": "https://cdn.pixabay.com/photo/2021/07/20/19/43/samgyetang-6481564_1280.jpg"
+    },
+    "삼치조림": {
+        "menu_id": 299,
+        "url": "https://i.postimg.cc/NjvbgGrH/IMG-4167.png"
+    },
+    "새우구이": {
+        "menu_id": 304,
+        "url": "https://cdn.pixabay.com/photo/2015/01/15/01/09/shrimp-599792_1280.jpg"
+    },
+    "새우튀김": {
+        "menu_id": 308,
+        "url": "https://cdn.pixabay.com/photo/2020/06/18/06/19/tempura-5312128_1280.jpg"
+    },
+    "샌드위치": {
+        "menu_id": 309,
+        "url": "https://cdn.pixabay.com/photo/2017/05/31/02/56/food-photography-2358904_1280.jpg"
+    },
+    "샐러드": {
+        "menu_id": 310,
+        "url": "https://cdn.pixabay.com/photo/2015/05/31/13/59/salad-791891_1280.jpg"
+    },
+    "생선까스": {
+        "menu_id": 311,
+        "url": "https://i.postimg.cc/QNP0yJ8S/IMG-4168.png"
+    },
+    "생선회": {
+        "menu_id": 220,
+        "url": "https://cdn.pixabay.com/photo/2018/08/28/11/28/salmon-times-3637245_1280.jpg"
+    },
+    "샤브샤브": {
+        "menu_id": 312,
+        "url": "https://cdn.pixabay.com/photo/2017/03/13/18/03/shabu-2140701_1280.jpg"
+    },
+    "선짓국": {
+        "menu_id": 316,
+        "url": "https://i.postimg.cc/L5qvsnTz/IMG-4169.png"
+    },
+    "설렁탕": {
+        "menu_id": 317,
+        "url": "https://cdn.pixabay.com/photo/2018/02/19/10/44/soup-3164741_1280.jpg"
+    },
+    "소고기 구이": {
+        "menu_id": 339,
+        "url": "https://cdn.pixabay.com/photo/2019/08/16/00/12/beef-4409138_1280.jpg"
+    },
+    "소고기 국밥": {
+        "menu_id": 321,
+        "url": "https://cdn.pixabay.com/photo/2016/09/07/10/15/food-1651279_1280.jpg"
+    },
+    "소고기 덮밥": {
+        "menu_id": 322,
+        "url": "https://cdn.pixabay.com/photo/2015/04/06/14/11/lunch-709423_1280.jpg"
+    },
+    "소고기 전골": {
+        "menu_id": 332,
+        "url": "https://i.postimg.cc/tCx2Qn7b/IMG-4170.png"
+    },
+    "소불고기": {
+        "menu_id": 341,
+        "url": "https://i.postimg.cc/90vbwC8s/IMG-4171.png"
+    },
+    "수육": {
+        "menu_id": 346,
+        "url": "https://cdn.pixabay.com/photo/2015/05/02/00/56/bossam-749357_1280.jpg"
+    },
+    "수제비": {
+        "menu_id": 240,
+        "url": "https://i.postimg.cc/CKNcry5f/IMG-4172.png"
+    },
+    "순대": {
+        "menu_id": 348,
+        "url": "https://cdn.pixabay.com/photo/2016/02/28/07/47/measly-1226570_1280.jpg"
+    },
+    "순대국": {
+        "menu_id": 349,
+        "url": "https://cdn.pixabay.com/photo/2016/04/14/17/01/soup-1329266_1280.jpg"
+    },
+    "순대볶음": {
+        "menu_id": 350,
+        "url": "https://i.postimg.cc/XJYQT2B1/IMG-4173.png"
+    },
+    "순대전골": {
+        "menu_id": 351,
+        "url": "https://i.postimg.cc/8zBQwy6f/IMG-4180.jpg"
+    },
+    "순두부찌개": {
+        "menu_id": 352,
+        "url": "https://i.postimg.cc/HLHStWYg/IMG-4174.png"
+    },
+    "스테이크": {
+        "menu_id": 338,
+        "url": "https://cdn.pixabay.com/photo/2018/11/16/11/37/steak-3819248_1280.jpg"
+    },
+    "스튜": {
+        "menu_id": 330,
+        "url": "https://cdn.pixabay.com/photo/2022/01/11/11/51/dish-6930432_1280.jpg"
+    },
+    "쌀국수": {
+        "menu_id": 356,
+        "url": "https://cdn.pixabay.com/photo/2021/10/21/12/48/beef-noodle-soup-6729018_1280.jpg"
+    },
+    "쑥전": {
+        "menu_id": 357,
+        "url": "https://i.postimg.cc/FFcDwJY4/IMG-4140.png"
+    },
+    "아귀찜": {
+        "menu_id": 361,
+        "url": "https://i.postimg.cc/NjN4R6z1/IMG-4136.png"
+    },
+    "아귀탕": {
+        "menu_id": 358,
+        "url": "https://i.postimg.cc/zGD7Lt0z/IMG-4137.png"
+    },
+    "알밥": {
+        "menu_id": 362,
+        "url": "https://cdn.pixabay.com/photo/2020/02/17/03/52/smile-be-4855352_1280.jpg"
+    },
+    "알탕": {
+        "menu_id": 363,
+        "url": "https://i.postimg.cc/zXFpGZw2/IMG-4138.png"
+    },
+    "애호박전": {
+        "menu_id": 365,
+        "url": "https://cdn.pixabay.com/photo/2017/06/12/15/02/of-2395811_1280.jpg"
+    },
+    "양장피": {
+        "menu_id": 373,
+        "url": "https://i.postimg.cc/7Ykm4YzT/IMG-4139.png"
+    },
+    "어묵 우동": {
+        "menu_id": 376,
+        "url": "https://cdn.pixabay.com/photo/2021/10/08/13/25/udon-6691341_1280.jpg"
+    },
+    "어묵탕": {
+        "menu_id": 378,
+        "url": "https://cdn.pixabay.com/photo/2015/03/24/13/22/food-687613_1280.jpg"
+    },
+    "연어구이": {
+        "menu_id": 382,
+        "url": "https://cdn.pixabay.com/photo/2014/11/05/15/57/new-years-eve-518032_1280.jpg"
+    },
+    "연잎밥": {
+        "menu_id": 385,
+        "url": "https://i.postimg.cc/tTGV67p3/IMG-4079.png"
+    },
+    "연포탕": {
+        "menu_id": 386,
+        "url": "https://i.postimg.cc/mgq9b8n6/IMG-4081.png"
+    },
+    "오리고기구이": {
+        "menu_id": 392,
+        "url": "https://cdn.pixabay.com/photo/2017/08/11/05/53/peking-duck-2629784_1280.jpg"
+    },
+    "오리불고기": {
+        "menu_id": 396,
+        "url": "https://i.postimg.cc/W4kkt0Lp/IMG-4080.png"
+    },
+    "오리탕": {
+        "menu_id": 397,
+        "url": "https://i.postimg.cc/nhM7b63D/IMG-4117.png"
+    },
+    "오므라이스": {
+        "menu_id": 398,
+        "url": "https://cdn.pixabay.com/photo/2014/02/20/12/31/omelette-270498_1280.jpg"
+    },
+    "오삼불고기": {
+        "menu_id": 403,
+        "url": "https://i.postimg.cc/BQSHN8DN/IMG-4118.png"
+    },
+    "오징어볶음": {
+        "menu_id": 402,
+        "url": "https://cdn.pixabay.com/photo/2021/02/12/12/11/spicy-6008389_1280.jpg"
+    },
+    "오징어순대": {
+        "menu_id": 404,
+        "url": "https://cdn.pixabay.com/photo/2017/02/20/16/51/stuffed-calamari-2083219_1280.jpg"
+    },
+    "우동": {
+        "menu_id": 413,
+        "url": "https://cdn.pixabay.com/photo/2016/05/13/00/41/udon-noodles-1389048_1280.jpg"
+    },
+    "울면": {
+        "menu_id": 419,
+        "url": "https://i.postimg.cc/T14Ydt93/IMG-4201.jpg"
+    },
+    "월남쌈": {
+        "menu_id": 420,
+        "url": "https://cdn.pixabay.com/photo/2021/11/01/15/52/spring-roll-6760871_1280.jpg"
+    },
+    "유부 초밥": {
+        "menu_id": 421,
+        "url": "https://cdn.pixabay.com/photo/2019/12/15/10/37/inari-4696793_1280.jpg"
+    },
+    "유산슬": {
+        "menu_id": 424,
+        "url": "https://i.postimg.cc/vH09KQty/IMG-4119.png"
+    },
+    "육개장": {
+        "menu_id": 331,
+        "url": "https://i.postimg.cc/rmZQcSSV/IMG-4175.png"
+    },
+    "육전": {
+        "menu_id": 538,
+        "url": "https://i.postimg.cc/d3BdwvM8/IMG-4120.png"
+    },
+    "육회": {
+        "menu_id": 426,
+        "url": "https://cdn.pixabay.com/photo/2015/01/13/06/45/meat-597951_1280.jpg"
+    },
+    "육회비빔밥": {
+        "menu_id": 427,
+        "url": "https://cdn.pixabay.com/photo/2014/02/26/09/02/bibimbap-274923_1280.jpg"
+    },
+    "잔치국수": {
+        "menu_id": 433,
+        "url": "https://cdn.pixabay.com/photo/2016/01/29/17/08/feast-noodles-1168322_1280.jpg"
+    },
+    "잡채밥": {
+        "menu_id": 434,
+        "url": "https://i.postimg.cc/G35csSFc/IMG-4191.jpg"
+    },
+    "잡탕밥": {
+        "menu_id": 435,
+        "url": "https://i.postimg.cc/cCZYpCzx/IMG-4121.png"
+    },
+    "장어구이": {
+        "menu_id": 441,
+        "url": "https://cdn.pixabay.com/photo/2020/02/08/03/53/eel-4829024_1280.jpg"
+    },
+    "장어덮밥": {
+        "menu_id": 438,
+        "url": "https://cdn.pixabay.com/photo/2015/02/23/01/01/eel-645641_1280.jpg"
+    },
+    "장어탕": {
+        "menu_id": 443,
+        "url": "https://cdn.pixabay.com/photo/2016/03/14/07/05/menu-5-wh-cs-division-1255020_1280.jpg"
+    },
+    "재첩국": {
+        "menu_id": 444,
+        "url": "https://cdn.pixabay.com/photo/2017/06/24/16/43/my-handbook-states-2438131_1280.jpg"
+    },
+    "쟁반짜장": {
+        "menu_id": 446,
+        "url": "https://cdn.pixabay.com/photo/2017/07/27/16/45/i-2545938_1280.jpg"
+    },
+    "전복탕": {
+        "menu_id": 449,
+        "url": "https://i.postimg.cc/gkx2SPzX/IMG-4200.jpg"
+    },
+    "제육볶음": {
+        "menu_id": 453,
+        "url": "https://i.postimg.cc/HLdHgGgt/IMG-4186.jpg"
+    },
+    "조개구이": {
+        "menu_id": 455,
+        "url": "https://cdn.pixabay.com/photo/2021/09/09/02/37/grilled-scallops-6609305_1280.jpg"
+    },
+    "조개탕": {
+        "menu_id": 458,
+        "url": "https://cdn.pixabay.com/photo/2022/11/15/12/33/clam-soup-7593891_1280.jpg"
+    },
+    "족발": {
+        "menu_id": 461,
+        "url": "https://cdn.pixabay.com/photo/2016/08/24/05/47/ham-hocks-1616283_1280.jpg"
+    },
+    "주꾸미볶음": {
+        "menu_id": 462,
+        "url": "https://cdn.pixabay.com/photo/2016/12/22/08/53/jjukkumi-1924744_1280.jpg"
+    },
+    "주꾸미삼겹살": {
+        "menu_id": 463,
+        "url": "https://i.postimg.cc/8C4Gkykg/IMG-4188.jpg"
+    },
+    "주먹밥": {
+        "menu_id": 464,
+        "url": "https://cdn.pixabay.com/photo/2021/07/31/05/40/rice-ball-6511221_1280.jpg"
+    },
+    "짜장면": {
+        "menu_id": 468,
+        "url": "https://cdn.pixabay.com/photo/2020/04/26/22/32/black-bean-noodles-5097423_1280.jpg"
+    },
+    "짜장밥": {
+        "menu_id": 469,
+        "url": "https://i.postimg.cc/YS5Qxbfm/IMG-4122.png"
+    },
+    "짬뽕": {
+        "menu_id": 470,
+        "url": "https://cdn.pixabay.com/photo/2021/02/11/01/58/jambong-6004032_1280.jpg"
+    },
+    "짬뽕밥": {
+        "menu_id": 472,
+        "url": "https://cdn.pixabay.com/photo/2016/04/05/03/52/spicy-seafood-1308693_1280.jpg"
+    },
+    "쫄면": {
+        "menu_id": 473,
+        "url": "https://i.postimg.cc/wvDL4L04/IMG-4123.png"
+    },
+    "찜닭": {
+        "menu_id": 130,
+        "url": "https://cdn.pixabay.com/photo/2020/10/11/10/05/meal-5645374_1280.jpg"
+    },
+    "차돌박이구이": {
+        "menu_id": 475,
+        "url": "https://cdn.pixabay.com/photo/2019/11/23/12/51/meat-4647001_1280.jpg"
+    },
+    "참치덮밥": {
+        "menu_id": 477,
+        "url": "https://i.postimg.cc/s2QpStSr/IMG-4124.png"
+    },
+    "청국장찌개": {
+        "menu_id": 480,
+        "url": "https://cdn.pixabay.com/photo/2022/11/15/12/38/miso-7593903_1280.jpg"
+    },
+    "초밥": {
+        "menu_id": 484,
+        "url": "https://cdn.pixabay.com/photo/2015/10/06/19/10/sushi-975075_1280.jpg"
+    },
+    "추어탕": {
+        "menu_id": 485,
+        "url": "https://cdn.pixabay.com/photo/2014/06/30/17/27/chueotang-380562_1280.jpg"
+    },
+    "충무김밥": {
+        "menu_id": 486,
+        "url": "https://i.postimg.cc/3J1CHj7P/IMG-4125.png"
+    },
+    "치킨": {
+        "menu_id": 118,
+        "url": "https://cdn.pixabay.com/photo/2022/05/17/05/15/chiken-bucket-7201681_1280.jpg"
+    },
+    "치킨까스": {
+        "menu_id": 487,
+        "url": "https://cdn.pixabay.com/photo/2017/05/31/02/56/food-photography-2358900_1280.jpg"
+    },
+    "치킨데리야끼": {
+        "menu_id": 488,
+        "url": "https://cdn.pixabay.com/photo/2018/07/25/16/41/japanese-3561782_1280.jpg"
+    },
+    "칠리새우": {
+        "menu_id": 71,
+        "url": "https://i.postimg.cc/1Xkh72Bw/IMG-4181.jpg"
+    },
+    "카레라이스": {
+        "menu_id": 490,
+        "url": "https://cdn.pixabay.com/photo/2019/02/08/16/07/potato-curry-3983456_1280.jpg"
+    },
+    "칼국수": {
+        "menu_id": 491,
+        "url": "https://cdn.pixabay.com/photo/2017/06/12/14/51/noodles-2395802_1280.jpg"
+    },
+    "캘리포니아롤": {
+        "menu_id": 492,
+        "url": "https://cdn.pixabay.com/photo/2018/10/08/22/11/sushi-3733573_1280.jpg"
+    },
+    "컵밥": {
+        "menu_id": 536,
+        "url": "https://cdn.pixabay.com/photo/2015/02/17/01/53/cup-rice-638993_1280.jpg"
+    },
+    "코다리조림": {
+        "menu_id": 494,
+        "url": "https://i.postimg.cc/HkL0WJkj/IMG-4126.png"
+    },
+    "콘치즈": {
+        "menu_id": 496,
+        "url": "https://cdn.pixabay.com/photo/2015/05/03/18/35/lasagna-751504_1280.jpg"
+    },
+    "콩국수": {
+        "menu_id": 497,
+        "url": "https://cdn.pixabay.com/photo/2016/11/11/10/50/noodles-1816375_1280.jpg"
+    },
+    "탄탄면": {
+        "menu_id": 499,
+        "url": "https://i.postimg.cc/HL9YcY2K/IMG-4197.jpg"
+    },
+    "탕수육": {
+        "menu_id": 501,
+        "url": "https://cdn.pixabay.com/photo/2018/04/26/08/01/food-3351333_1280.jpg"
+    },
+    "토스트": {
+        "menu_id": 504,
+        "url": "https://cdn.pixabay.com/photo/2022/02/12/21/36/sandwich-7009977_1280.jpg"
+    },
+    "파스타": {
+        "menu_id": 355,
+        "url": "https://cdn.pixabay.com/photo/2019/11/14/11/23/pasta-4625962_1280.jpg"
+    },
+    "파전": {
+        "menu_id": 506,
+        "url": "https://i.postimg.cc/DzTfwJqL/IMG-4196.jpg"
+    },
+    "팔보채": {
+        "menu_id": 507,
+        "url": "https://i.postimg.cc/6p1r898c/IMG-4127.png"
+    },
+    "팟타이": {
+        "menu_id": 508,
+        "url": "https://cdn.pixabay.com/photo/2021/03/23/05/24/stir-fried-noodle-6116373_1280.jpg"
+    },
+    "피자": {
+        "menu_id": 511,
+        "url": "https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_1280.jpg"
+    },
+    "함박스테이크": {
+        "menu_id": 512,
+        "url": "https://i.postimg.cc/7ZgDdHp6/IMG-4187.jpg"
+    },
+    "해물전골": {
+        "menu_id": 516,
+        "url": "https://i.postimg.cc/WbT6KYRG/IMG-4128.png"
+    },
+    "해물찜": {
+        "menu_id": 517,
+        "url": "https://i.postimg.cc/Fz8N57rf/IMG-4193.jpg"
+    },
+    "해물탕": {
+        "menu_id": 519,
+        "url": "https://i.postimg.cc/gjqyj8hL/IMG-4129.png"
+    },
+    "해신탕": {
+        "menu_id": 521,
+        "url": "https://i.postimg.cc/1RprvhdR/IMG-4132.png"
+    },
+    "해장국": {
+        "menu_id": 522,
+        "url": "https://cdn.pixabay.com/photo/2018/09/10/09/21/haejangguk-3666599_1280.jpg"
+    },
+    "햄버거": {
+        "menu_id": 524,
+        "url": "https://cdn.pixabay.com/photo/2022/07/15/18/17/spicy-burger-7323694_1280.jpg"
+    },
+    "홍합탕": {
+        "menu_id": 528,
+        "url": "https://cdn.pixabay.com/photo/2015/03/17/18/48/mussels-in-bath-678142_1280.jpg"
+    },
+    "황태해장국": {
+        "menu_id": 530,
+        "url": "https://i.postimg.cc/C5VHwmRV/IMG-4133.png"
+    },
+    "회냉면": {
+        "menu_id": 531,
+        "url": "https://i.postimg.cc/VNpWVY1v/IMG-4134.png"
+    },
+    "회덮밥": {
+        "menu_id": 532,
+        "url": "https://cdn.pixabay.com/photo/2016/03/02/02/37/mulhoe-1231643_1280.jpg"
+    },
+    "회무침": {
+        "menu_id": 533,
+        "url": "https://cdn.pixabay.com/photo/2017/06/12/14/49/pilchards-2395793_1280.jpg"
+    },
+    "훈제오리": {
+        "menu_id": 534,
+        "url": "https://cdn.pixabay.com/photo/2018/04/03/11/20/palace-bo-3286574_1280.jpg"
+    },
+    "훠궈": {
+        "menu_id": 535,
+        "url": "https://i.postimg.cc/0NbCnzTh/IMG-4135.png"
+    }
+}

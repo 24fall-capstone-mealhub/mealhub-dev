@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signin</title>
+</head>
+<body>
+<h2>Signin to Your Account</h2>
+
+<!-- signin.html -->
+<form id="signinForm">
+  <div>
+    <label for="loginId">Id</label>
+    <input type="loginId" id="loginId" name="loginId" required />
+  </div>
+  <div>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required />
+  </div>
+  <div>
+    <label for="confirmPassword">Confirm Password</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required />
+  </div>
+  <!-- 성별 선택 -->
+  <div>
+    <label>Gender</label><br />
+    <input type="radio" id="male" name="gender" value="male" required />
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required />
+    <label for="female">Female</label>
+  </div>
+  <div>
+    <label for="allergy">Allergy</label>
+    <input type="checkbox" id="allergy" name="allergy" required />
+  </div>
+  <div>
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" required />
+  </div>
+  <button type="submit">Sign Up</button>
+</form>
+
+<script>
+  document.getElementById('signinForm').addEventListener('submit', function(event) {
+    event.preventDefault();  // 폼 제출 기본 동작 막기
+
+    // 폼 데이터 수집
+    const formData = new FormData(event.target);
+    const userDTO = {
+      loginId: formData.get('loginId'),  // ✅ loginId 추가
+      password: formData.get('password'),
+      confirmPassword: formData.get('confirmPassword'),
+      gender: formData.get('gender'),
+      allergy: formData.get('allergy') === 'on',
+      age: parseInt(formData.get('age'))  // 숫자 형변환 권장
+    };
+
+    // fetch를 사용해 API에 POST 요청 보내기
+    fetch('/user/signin', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(userDTO),
+    })
+            .then(response => response.json())  // JSON 응답 처리
+            .then(data => {
+              if (data === "회원가입 성공") {
+                alert('회원가입 성공');
+                window.location.href = '/user/login';  // 로그인 페이지로 리디렉션
+              } else {
+                alert(data);  // 실패 메시지 출력
+              }
+            })
+            .catch(error => {
+              console.error('회원가입 중 오류 발생:', error);
+              alert('회원가입 중 오류가 발생했습니다.');
+            });
+  });
+</script>
+</body>
+</html>
